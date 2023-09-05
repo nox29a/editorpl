@@ -5,14 +5,16 @@ import 'aos/dist/aos.css';
 AOS.init();
 const About = () => {
   return (
-  <div id="About" className=' pt-32'>
+  <div id="About" className=' pt-32 bg-black'>
     <div className='grid place-items-center'>
       <div className='container mx-auto'>
         <h1 data-aos="flip-down" className='text-[90px] text-center p-8 gap-4'>About</h1>
             <div className='text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8 gap-20'>
               <p data-aos="fade-right" className='bg-hero border-2 border-purple-700 text-xl rounded-lg p-8 '><img src={Portret} alt='portret' className='w-fit' /></p>
-              <p data-aos="fade-right" className='bg-hero border-2 border-purple-700 text-xl rounded-lg p-8 '>I'm excited to be starting my journey in web development. While I may not have any professional experience yet, I am passionate about learning and developing my skills in this field.</p>
-              <p data-aos="fade-left" className='justify-end bg-hero border-2 border-purple-700 text-xl  rounded-lg p-8 '>I recently completed a FreeCodeCamp Course, where I earned some certifications. Since then, I've been building my own projects, experimenting with different technologies, and staying up-to-date with the latest trends in web development.</p>
+              <p data-aos="fade-right" className='bg-hero border-2 border-purple-700 text-xl rounded-lg p-8 '>I'm a passionate and experienced video editor on the lookout for exciting new opportunities to bring your ideas to life. With a keen eye for detail, creativity, and technical expertise, I have the skills to transform raw footage into compelling visual stories.</p>
+              <p data-aos="fade-left" className='justify-end bg-hero border-2 border-purple-700 text-xl  rounded-lg p-8 '>Creative Excellence: My editing style is driven by creativity and a deep understanding of storytelling. Whether it's a promotional video, a documentary, or a social media clip, I can tailor my skills to your project's unique needs.
+
+</p>
             </div>
       </div>
     </div>

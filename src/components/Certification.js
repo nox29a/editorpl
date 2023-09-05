@@ -4,24 +4,19 @@ import 'aos/dist/aos.css';
 AOS.init();
 const Certification = () => {
       return (
-<div id='Certification' className='bg-hero grid place-items-center pt-32'>
-      <div className='container mx-auto'>
-            <h1 data-aos="flip-down" className='text-center text-[40px] sm:text-[90px] p-8 gap-4'>Certifications</h1>
-            <div className='text-lg grid md:grid-cols-2 lg:grid-cols-3 p-8 gap-20 '>
-                  <a href="https://www.freecodecamp.org/certification/nox29a/responsive-web-design">
-                  <div data-aos="flip-up" className='w-72 sm:w-auto bg-certification border-2 border-purple-700 rounded-lg p-8 flex flex-col items-center h-96 hover:border-purple-500'><div className='text-center mb-5 '>Responsive web design</div>
-                        <img className='max-w-[200px] lg:max-w-[250px] pb-10 hover:scale-110' src="https://nox29a.pythonanywhere.com/static/assets/img/portfolio/cert2.png" alt=""></img>
-                  </div></a>
-                  <a href="https://www.freecodecamp.org/certification/nox29a/javascript-algorithms-and-data-structures ">
-                  <div data-aos="flip-up" className=' w-72 sm:w-auto bg-certification border-2 border-purple-700 rounded-lg p-8  flex flex-col items-center h-96 hover:border-purple-500'><div className='text-center mb-5'>Javascript algorithms and data structures</div>
-                        <img className='max-w-[200px] lg:max-w-[250px] pb-10 hover:scale-110' src="https://nox29a.pythonanywhere.com/static/assets/img/portfolio/cert1.jpg" alt=""></img>
-                  </div></a>
-                  <a href="https://www.freecodecamp.org/certification/nox29a/front-end-development-libraries ">
-                  <div data-aos="flip-up" className=' w-72 sm:w-auto bg-certification border-2 border-purple-700 rounded-lg p-8 flex flex-col items-center h-96 hover:border-purple-500'><div className='text-center mb-5'>Front end development libraries</div>
-                        <img className='max-w-[200px] lg:max-w-[250px] pb-10 hover:scale-110' src="https://nox29a.pythonanywhere.com/static/assets/img/portfolio/cert3.PNG" alt=""></img>
-                  </div></a>
-            </div>
-      </div>
+<div id='Certification' className='grid place-items-center pt-32 bg-black'>
+<div class="relative flex min-h-screen items-center justify-center overflow-hidden ">
+  <div class="max-w-2xl px-24">
+    <div class="relative h-80 w-[32rem] shadow-xl shadow-black/60">
+      <div class="top-left absolute -top-6 -left-10 h-12 w-20 -rotate-45 bg-purple-900"></div>
+      
+      <div class="top-right absolute -top-6 -right-10 h-12 w-20 rotate-45 bg-blue-900"></div>
+      <div class="bottom-right absolute -bottom-6 -right-10 h-12 w-20 -rotate-45 bg-purple-900"></div>
+      <div class="bottom-left absolute -bottom-6 -left-10 h-12 w-20 rotate-45 bg-blue-900"></div>
+      <img class="h-full w-full object-cover" src="https://as2.ftcdn.net/v2/jpg/04/80/78/59/1000_F_480785959_uBzp37VuAD3NkLNMm8Ia93guQ1HyH2aT.jpg" alt="" />
+    </div>
+  </div>
+</div>
 </div>
       )
 };
