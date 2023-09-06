@@ -9,9 +9,9 @@ const Hero = () => {
       <span data-aos="zoom-out-down" className='font-semibold'>
       Łukasz Adamczyk<br />
       </span> 
-      <span data-aos="zoom-out-right" className='text-[40px] sm:text-[60px] text-purple-700'>Video editor<br /></span>
+      <span data-aos="zoom-out-right" className='text-[40px] sm:text-[60px] text-purple-700'>Montażysta<br /></span>
       <span data-aos="zoom-in-left" className='text-[20px] sm:text-[40px] '>
-      Open to work
+      Grafik
       </span></h1>
     </div>
       <div className='hidden animate-in md:flex-rows lg:flex justify-end'>

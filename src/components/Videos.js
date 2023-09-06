@@ -11,7 +11,7 @@ const Videos = () => {
     <div id="Videos" className=' pt-32 bg-black'>
     <div className='grid place-items-center'>
       <div className='container mx-auto'>
-    <h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Videos</h1>
+    <h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Filmy</h1>
     <div className='text-lg grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-8 gap-20'>
     {/* FIRST CARD */}
   <div  data-aos="flip-left" class="group w-72 sm:w-96 h-[500px] [perspective:1000px]">
@@ -22,9 +22,9 @@ const Videos = () => {
       <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
         <div class="flex min-h-full flex-col items-center justify-center">
 
-          <p class="text-2xl m-2">Complex edits 📹</p>
-          <p class="text-base m-2">Elevate your social media game with eye-catching video edits. Grab attention, tell stories, and leave a lasting impression.</p>
-          <button class="border p-1 m-2 rounded-xl">Watch</button>
+          <p class="text-2xl m-2">Kompleksowe edycje 📹</p>
+          <p class="text-base m-2">Jestem pasjonatem montażu kompleksowych filmów video, tworzę wyjątkowe historie z dbałością o każdy detal. Zapraszam do odkrywania moich produkcji!</p>
+          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
    
         </div>
       </div>
@@ -38,9 +38,9 @@ const Videos = () => {
       <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
         <div class="flex min-h-full flex-col items-center justify-center">
 
-        <p class="text-2xl m-2">Funny videos 🤣</p>
-          <p class="text-base m-2">Spice up your social feed with hilarious video edits! Laughter is contagious, and your content will spread joy like wildfire.</p>
-          <button class="border p-1 m-2 rounded-xl">Watch</button>
+        <p class="text-2xl m-2">Śmieszne edycje 🤣</p>
+          <p class="text-base m-2">Mam bogate doświadczenie w montażu filmów, specjalizuję się w tworzeniu zabawnych, niepowtarzalnych produkcji. Zobacz, jak mogę uczynić twoje pomysły jeszcze lepszymi!</p>
+          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
    
         </div>
       </div>
@@ -56,9 +56,9 @@ const Videos = () => {
       <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
         <div class="flex min-h-full flex-col items-center justify-center">
 
-          <p class="text-2xl m-2">Growing audience 📈</p>
-          <p class="text-base m-2">Unlock the power of video edits to captivate your audience. Engage, educate, and watch your online community flourish.</p>
-          <button class="border p-1 m-2 rounded-xl">Watch</button>
+          <p class="text-2xl m-2">Rozwój marki 📈</p>
+          <p class="text-base m-2">Zbuduj swój wizerunek i powiększ lojalną społeczność za pomocą strategii wideo. Tworzę treści, które wzmacniają markę i przyciągają uwagę. Razem osiągniemy sukces! </p>
+          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
         </div>
       </div>
       </div></div> 
