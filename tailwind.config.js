@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Poppins',
+      primary: 'Consolas',
     },
     container: {
       padding: {
@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#1831AD',
+        primary: '#4f6af0',
         accent: {
           DEFAULT: '#74AD45',
           hover: '#83FA23',

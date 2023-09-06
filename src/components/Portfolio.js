@@ -9,8 +9,8 @@ const Portfolio = () => {
 <div id='Edits' className='grid place-items-center pt-32 bg-black'>
 <div class="flex min-h-screen items-center justify-center ">
   <div class="mx-auto max-w-6xl px-6">
-    <div class="flex [&:hover>div]:w-16 [&>div:hover]:w-[30rem]">
-      <div class="group relative h-96 w-[1  0rem] cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
+    <div class="flex [&:hover>div]:w-16 [&>div:hover]:w-[40rem]">
+      <div class="group relative h-96 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
         <img class="h-full object-cover transition-all group-hover:rotate-12 group-hover:scale-125" src="https://image.winudf.com/v2/image1/Y29tLmRlc3RpbnkuYm95c2VsZmllX3NjcmVlbl81XzE2MTAyNjMxNzZfMDI1/screen-5.webp?fakeurl=1&type=.webp" alt="" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-purple-500/20 to-black group-hover:visible">
           <div class="absolute inset-x-5 bottom-6">
@@ -92,7 +92,7 @@ const Portfolio = () => {
             <div class="flex gap-3 text-white">
               <svg width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="m11.74 13.36l2.4-5.65l-1.08-2.21H10.5V4H14l.73 1.5h7.02l-1 3.5h-4.31l.67 1.37A5.002 5.002 0 0 1 24 15c0 2.76-2.24 5-5 5s-5-2.24-5-5c0-1.55.71-2.94 1.82-3.85L15 9.5L12.25 16H9.9A5 5 0 1 1 5 10c2.59 0 4.72 1.97 5 4.5h.58L8.3 9h-.8c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h2.75c.41 0 .75.34.75.75s-.34.75-.75.75h-.28l1.77 4.36M5 11.5c-1.93 0-3.5 1.57-3.5 3.5a3.504 3.504 0 0 0 6.86 1H4v-1.5h4.47c-.25-1.7-1.71-3-3.47-3m14 0c-.43 0-.85.08-1.23.22l1.93 3.96l-1.35.66l-1.85-3.79c-.62.63-1 1.5-1 2.45c0 1.93 1.57 3.5 3.5 3.5s3.5-1.57 3.5-3.5s-1.57-3.5-3.5-3.5Z" /></svg>
               <div>
-                <p class="font-sembold text-xl text-gray-100">And much more</p>
+                <p class="font-sembold text-xl text-gray-100">Drone</p>
                 <p class="text-gray-300"></p>
               </div>
             </div>
