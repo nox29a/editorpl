@@ -14,7 +14,7 @@ const App = () => {
     <Hero />
     <About />
     <Videos />
-  
+
     <Photos />
     <Social />
     <Footer />

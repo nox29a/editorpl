@@ -9,7 +9,7 @@ AOS.init();
 const Photos = () => {
       return (
 <div id='Photos' className='grid place-items-center pt-32 bg-black'>
-<h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Photos</h1>
+<h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Zdjęcia</h1>
 <div class="relative flex min-h-[450px] items-center justify-center overflow-hidden ">
   <div class="max-w-2xl px-24">
     <div class="relative h-80 w-[32rem] shadow-xl shadow-black/60">
