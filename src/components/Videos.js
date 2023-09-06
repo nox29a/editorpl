@@ -49,7 +49,7 @@ const Videos = () => {
       </div></div> 
     {/* THIRD CARD */}
     <div  data-aos="flip-left" class="group w-72 sm:w-96 h-[500px] ">
-    <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 overflow-visible [-webkit-transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+    <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500[-webkit-transform-style:preserve-3d] group-hover:[-webkit-transform:rotateY(180deg)]">
       <div class="absolute inset-0">
         <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src={Promo2} alt="" />
       </div>
