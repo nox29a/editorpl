@@ -27,6 +27,7 @@ module.exports = {
         certification: '#B5CBE0',
         body: '#F8C7B6',
       },
+
       backgroundImage: {
         hero: "url('./img/herobg.png')",
         herohead: "url('./img/herobghead.png')",
@@ -50,7 +51,11 @@ module.exports = {
         },
         flip:{
           '100%': { transform: 'rotateY(180deg)' },
-        }
+        },
+        shimmer:{
+          from: { backgroundPosition: '0 0' },
+          to: { backgroundPosition: '-200% 0' },
+        },
       },
       animation: {
         'wiggle': 'wiggle 4s linear infinite',
@@ -58,6 +63,7 @@ module.exports = {
         'wiggle2': 'wiggle2 1s linear',
         'in': 'in 2s ease-in',
         'flip': 'flip 1s ease-in',
+        'shimmer': 'shimmer 2.5s ease-out infinite alternate',
       }
     },
   },
