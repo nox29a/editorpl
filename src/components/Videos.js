@@ -53,7 +53,7 @@ const Videos = () => {
       <div class="absolute inset-0">
         <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src={Promo2} alt="" />
       </div>
-      <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center overflow-visible  text-slate-200 [-webkit-transform:rotateY(180deg)] [transform:rotateY(180deg)] [backface-visibility:hidden] [-webkit-backface-visibility:hidden] group-hover:z-1">
+      <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center overflow-visible  text-slate-200 [-webkit-transform:rotateY(180deg)] [transform:rotateY(180deg)] [backface-custom:hidden] group-hover:z-1">
         <div class="flex min-h-full flex-col items-center justify-center">
 
           <p class="text-2xl m-2">Rozwój marki 📈</p>
