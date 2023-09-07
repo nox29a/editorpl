@@ -10,6 +10,7 @@ import Videos from './components/Videos';
 
 const App = () => {
   return <div className='overflow-hidden'>
+		
     <Header />
     <Hero />
     <About />
@@ -18,6 +19,7 @@ const App = () => {
     <Photos />
     <Social />
     <Footer />
+		
   </div>;
 };
 

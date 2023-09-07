@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    darkMode: 'class',
     fontFamily: {
       primary: 'Consolas',
     },
@@ -52,7 +53,15 @@ module.exports = {
         flip:{
           '100%': { transform: 'rotateY(180deg)' },
         },
-        shimmer:{
+        shimmer4:{
+          from: { backgroundPosition: '0 0' },
+          to: { backgroundPosition: '-200% 0' },
+        },
+        shimmer2:{
+          from: { backgroundPosition: '0 0' },
+          to: { backgroundPosition: '-200% 0' },
+        },
+        shimmer3:{
           from: { backgroundPosition: '0 0' },
           to: { backgroundPosition: '-200% 0' },
         },
@@ -63,7 +72,9 @@ module.exports = {
         'wiggle2': 'wiggle2 1s linear',
         'in': 'in 2s ease-in',
         'flip': 'flip 1s ease-in',
-        'shimmer': 'shimmer 2.5s ease-out infinite alternate',
+        'shimmer4': 'shimmer 4s ease-out infinite alternate',
+        'shimmer3': 'shimmer 3s ease-out infinite alternate',
+        'shimmer2': 'shimmer 2s ease-out infinite alternate',
       }
     },
   },
