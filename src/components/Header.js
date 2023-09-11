@@ -21,7 +21,7 @@ const Header = () => {
             <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
             <a href='#Photos'>Zdjęcia</a></div>
             <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
-            <a href='#Socials'>Sociale</a></div>
+            <a href='#Socials'>Kontakt</a></div>
           </div>    
       </div>
   </header>
