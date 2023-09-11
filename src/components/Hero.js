@@ -16,8 +16,8 @@ const Hero = () => {
       Grafik
       </span></h1>
     </div>
-      <div className='z-1 animate-in md:flex-rows lg:flex justify-end'>
-        <img className='max-w-[400px] max-h-[400px]' src={HeroImg} alt="hero"></img>
+      <div className='z-1 animate-in md:flex-rows flex justify-end    mt-96 lg:mt-20'>
+        <img className=' flex max-w-[400px] max-h-[400px] align-bottom' src={HeroImg} alt="hero"></img>
       </div>
   </div>
   
