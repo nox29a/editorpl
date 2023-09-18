@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './components/About';
 import Header from './components/Header';
-import Portfolio from './components/Portfolio';
+import Showreel from './components/Showreel';
 import Social from './components/Social';
 import Photos from './components/Photos';
 import Footer from './components/Footer';
@@ -14,6 +14,7 @@ const App = () => {
     <Header />
     <Hero />
     <About />
+    <Showreel />
     <Videos />
 
     <Photos />
