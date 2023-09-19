@@ -10,17 +10,14 @@ import Videos from './components/Videos';
 
 const App = () => {
   return <div className='overflow-hidden'>
-		
     <Header />
     <Hero />
     <About />
     <Showreel />
     <Videos />
-
     <Photos />
     <Social />
     <Footer />
-		
   </div>;
 };
 

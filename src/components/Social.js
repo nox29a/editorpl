@@ -9,7 +9,7 @@ const Socials = () => {
 
   return (
     <section className="bg-black">
-      <div id='Socials' className='place-items-center pt-32 bg-black'>
+      <div id='Socials' className='place-items-center pt-2 bg-black'>
         <div className='text-[30px] text-center p-8 gap-4'>
         <p className='mb-4'>Oto moje profile w mediach społecznościowych:</p>
       <div className='flex flex-row justify-between mt-10 gap-4 md:mx-40 mb-20'>
