@@ -6,9 +6,9 @@ const Header = () => {
       <div className='lg:container mx-2 flex items-center justify-between h-full  '>
         <div className='cursor-pointer grid grid-cols-2 sm:flex sm:flex-row-reverse' >
           <a href='https://editorpl-nox.vercel.app/'>
-          <img className='sm:flex grid-cols-2 w-[30px] h-[30px] rounded-full m-1' src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_Poland_%28normative%29.svg/360px-Flag_of_Poland_%28normative%29.svg.png" alt="hero"></img></a>
+          <img className='sm:flex grid-cols-2 w-[30px] h-[30px] rounded-full m-1 lg:m-5' src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_Poland_%28normative%29.svg/360px-Flag_of_Poland_%28normative%29.svg.png" alt="hero"></img></a>
           <a href='https://editor-nox.vercel.app/'>
-          <img className='sm:flex grid-cols-2 w-[30px] h-[30px] rounded-full m-1' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/360px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="hero"></img></a>
+          <img className='sm:flex grid-cols-2 w-[30px] h-[30px] rounded-full m-1 lg:m-5' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/360px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="hero"></img></a>
           <a href='#Hero'>
           <img className='sm:flex max-w-[50px] max-h-[50px]' src={HeroImg} alt="hero"></img></a>
         </div>

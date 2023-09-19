@@ -24,7 +24,7 @@ const Videos = () => {
 
           <p class="text-2xl m-2">Kompleksowe edycje 📹</p>
           <p class="text-base m-2">Jestem pasjonatem montażu kompleksowych filmów video, tworzę wyjątkowe historie z dbałością o każdy detal. Zapraszam do odkrywania moich produkcji!</p>
-          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
+          <a href="https://www.tiktok.com/@imszymonpietruszka"><button class="border p-1 m-2 rounded-xl">Zobacz</button></a>
    
         </div>
       </div>
@@ -40,7 +40,7 @@ const Videos = () => {
 
         <p class="text-2xl m-2">Śmieszne edycje 🤣</p>
           <p class="text-base m-2">Mam bogate doświadczenie w montażu filmów, specjalizuję się w tworzeniu zabawnych, niepowtarzalnych produkcji. Zobacz, jak mogę uczynić twoje pomysły jeszcze lepszymi!</p>
-          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
+          <a href="https://www.tiktok.com/@imszymonpietruszka/video/7215121159401131291"><button class="border p-1 m-2 rounded-xl">Zobacz</button></a>
    
         </div>
       </div>
@@ -58,7 +58,7 @@ const Videos = () => {
 
           <p class="text-2xl m-2">Rozwój marki 📈</p>
           <p class="text-base m-2">Zbuduj swój wizerunek i powiększ lojalną społeczność za pomocą strategii wideo. Tworzę treści, które wzmacniają markę i przyciągają uwagę. Razem osiągniemy sukces! </p>
-          <button class="border p-1 m-2 rounded-xl">Zobacz</button>
+          <a href="https://www.tiktok.com/@imszymonpietruszka"><button class="border p-1 m-2 rounded-xl">Zobacz</button></a>
         </div>
       </div>
       </div></div> 
