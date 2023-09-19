@@ -12,7 +12,7 @@ const Header = () => {
           <a href='https://editor-nox.vercel.app/'>
           <img className='sm:flex w-[40px] h-[40px] rounded-full m-4' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/360px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="hero"></img></a>
         </div>
-        <div className='grid grid-cols-2 text-lg text-center sm:flex sm:flex-row sm:text-2xl sm:justify-end'>
+        <div className='grid grid-cols-2 text-base text-center sm:flex sm:flex-row sm:text-2xl sm:justify-end'>
             <div className='m-2  p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
             <a href='#About'>O mnie</a></div>
             <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
