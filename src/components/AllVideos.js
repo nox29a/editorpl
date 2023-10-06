@@ -6,7 +6,7 @@ AOS.init();
 const AllVideos = () => {
   return (
 <div id="Showreel" class="bg-black pt-32 ">
-<h1 data-aos="flip-down" className='text-[40px] md:text-[70px] sm:text-[90px] text-center p-8 gap-4'>All videos</h1>
+<h1 data-aos="flip-down" className='text-[40px] md:text-[70px] sm:text-[90px] text-center p-8 gap-4'>Wszystkie filmy</h1>
   <div class="grid gap-10 grid-cols-1 lg:grid-cols-3 p-10 lg:p-20">
 {/* video */}
     <div class="aspect-w-9 aspect-h-16">
@@ -112,11 +112,27 @@ const AllVideos = () => {
   allow="encrypted-media;"
 ></iframe>
 </div>
+    <div></div>
+
+    {/*dłuższe filmy*/}
     
+    <div class="">
+  <iframe class="h-[225px] w-[400px]" src="https://player.vimeo.com/video/404296988?h=ea51e71a26" frameborder="0"></iframe>
+</div>
+    <div class="">
+  <iframe class="h-[225px] w-[400px]" src="https://player.vimeo.com/video/401111307?h=eef72a0cc6" frameborder="0"></iframe>
+</div>
+    <div class="">
+  <iframe class="h-[225px] w-[400px]" src="https://www.youtube.com/embed/H20IUSS71K0?si=fHDInuVnhPuW0Byw" frameborder="0"></iframe>
+</div>
+    <div class="">
+  <iframe class="h-[225px] w-[400px]" src="https://www.youtube.com/embed/VRwi4sArrs4?si=uNFmd_Ge_E1H8Dqt" frameborder="0"></iframe>
+</div>
 
   </div>
-
 </div>
+
+
   )
 };
 
