@@ -12,7 +12,12 @@ const Videos = () => {
     <div className='grid place-items-center'>
       <div className='container mx-auto'>
     <h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Filmy</h1>
+
+    <a href="/Videos">
+    <div className='border-2 border-primary p-3 my-20 rounded-3xl hover:bg-slate-300 text-center'>Zobacz wszystkie filmy</div>
+    </a>
     <div className='text-lg grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-8 gap-20'>
+
     {/* FIRST CARD */}
   <div  data-aos="flip-left" class="group w-72 sm:w-96 h-[500px] [perspective:1000px]">
     <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
