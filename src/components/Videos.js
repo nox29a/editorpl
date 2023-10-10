@@ -14,7 +14,7 @@ const Videos = () => {
     <h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Filmy</h1>
 
     <a href="/Videos">
-    <div className='border-2 border-primary p-3 my-20 rounded-3xl hover:bg-slate-300 text-center'>Zobacz wszystkie filmy</div>
+    <div className='border-2 border-purple-800 p-3 my-20 rounded-3xl hover:bg-slate-300 text-center'>Zobacz wszystkie filmy</div>
     </a>
     <div className='text-lg grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-8 gap-20'>
 
