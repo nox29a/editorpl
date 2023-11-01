@@ -18,7 +18,7 @@ const Hero = () => {
       </span></h1>
     </div>
       <div className='z-1 md:flex-rows flex justify-end  mt-96 lg:mt-20 '>
-      <div className='flex max-w-[300px] max-h-[300px] lg:max-w-[400px] lg:max-h-[400px] align-bottom rounded-3xl'>
+      <div className='flex max-w-[250px] max-h-[250px] lg:max-w-[400px] lg:max-h-[400px] align-bottom rounded-3xl'>
 
           <MainSlider />
       </div>
