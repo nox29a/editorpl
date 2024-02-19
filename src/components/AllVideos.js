@@ -21,6 +21,58 @@ const AllVideos = () => {
                 ></iframe>
               </div>
 
+ {/* video */}
+    <div class="aspect-w-9 aspect-h-16">
+
+
+                <iframe
+                  src="https://www.tiktok.com/embed/7315419343611776289"
+                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
+                  allowfullscreen
+                  scrolling="no"
+                  allow="encrypted-media;"
+                ></iframe>
+              </div>
+
+ {/* video */}
+    <div class="aspect-w-9 aspect-h-16">
+
+
+                <iframe
+                  src="https://www.tiktok.com/embed/7314983346277338400"
+                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
+                  allowfullscreen
+                  scrolling="no"
+                  allow="encrypted-media;"
+                ></iframe>
+              </div>
+
+ {/* video */}
+    <div class="aspect-w-9 aspect-h-16">
+
+
+                <iframe
+                  src="https://www.tiktok.com/embed/7312383496859782433"
+                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
+                  allowfullscreen
+                  scrolling="no"
+                  allow="encrypted-media;"
+                ></iframe>
+              </div>
+
+ {/* video */}
+    <div class="aspect-w-9 aspect-h-16">
+
+
+                <iframe
+                  src="https://www.tiktok.com/embed/7308798950142643489"
+                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
+                  allowfullscreen
+                  scrolling="no"
+                  allow="encrypted-media;"
+                ></iframe>
+              </div>
+  
            {/* video */}
     <div class="aspect-w-9 aspect-h-16">
 
