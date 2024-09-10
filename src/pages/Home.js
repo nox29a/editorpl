@@ -8,11 +8,9 @@ import Videos from '../components/Videos';
 
 const Home = () => {
   return <div className='overflow-hidden'>
-    <Hero />
-    <About />
+
     <Showreel />
     <Videos />
-    <Photos />
     <Social />
   </div>;
 };
